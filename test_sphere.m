@@ -1,0 +1,13 @@
+figure
+subplot(2,2,1)
+[x,y,z]=sphere(100)
+surf(x,y,z)
+subplot(2,2,2)
+[x,y,z]=sphere(100)
+plot3(x,y,z)
+subplot(2,2,3)
+[x,y,z]=sphere(100)
+surfl(x,y,z)
+subplot(2,2,4)
+[x,y,z]=sphere(100)
+mesh(x,y,z)
